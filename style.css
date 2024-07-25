@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body.home {
+  background: url('images/headerimage.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.ai {
+  background: url('images/ai-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.robotics {
+  background: url('images/robotics-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-blue {
+  background-color: #007bff; /* Fundal albastru */
+  padding: 20px;
+}
+
+.text-white {
+  color: #ffffff; /* Text alb */
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  --bs-btn-hover-bg: #ee4b08;
+  --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-secondary:hover {
+  background-color: #138496;
+  border-color: #138496;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.interactive-example {
+  margin-bottom: 2rem;
+}
